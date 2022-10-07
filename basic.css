@@ -1,0 +1,171 @@
+body {
+  font: 100% normal Arial, Helvetica, sans-serif;
+  background-color: yellow;
+  color: white;
+}
+
+#forms {
+  background-color: rgb(91, 91, 92);
+  border-radius: 10px;
+  text-align: left;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend,
+label {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+}
+
+input {
+  border-radius: 5px;
+  background-color: rgb(229, 229, 230);
+  color: #000000;
+  margin-left: 3px;
+}
+
+b.desc {
+  color: #ffffff;
+}
+
+h1 {
+  /*background-color: rgb(10, 2, 51);*/
+  background-color: red;
+  padding: 10px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  background-color: rgb(68, 68, 68);
+  font-weight: bold;
+  height: 40px;
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+button:active {
+  background-color: #000000;
+}
+
+input:hover {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-block-start: 10px;
+}
+
+strong {
+  margin-left: 80px;
+}
+#s1 {
+  margin-right: 70px;
+}
+
+b {
+  margin-left: 10px;
+}
+input#a1 {
+  margin-left: 70px;
+}
+
+#hey1 {
+  margin-right: 162px;
+}
+
+#hey2 {
+  margin-right: 40px;
+}
+#hey3 {
+  margin-right: 40px;
+}
+#hey4 {
+  margin-right: 76px;
+}
+
+img {
+  vertical-align: middle;
+  padding-block: 5px;
+}
+
+#b1 {
+  margin-left: 120px;
+}
+#p1 {
+  border-radius: 5px;
+  background-color: rgb(66, 66, 66);
+  border: 2px;
+  border-spacing: 10px;
+}
+
+#z1 {
+  padding-left: 0px;
+}
+
+#z2 {
+  padding-left: 150px;
+}
+
+#z3 {
+  padding-left: 150px;
+}
+#bz {
+  padding-left: 50px;
+}
+
+#mgs {
+  padding-left: 40px;
+}
+
+table {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #242424;
+  margin-left: 50px;
+  width: 900px;
+}

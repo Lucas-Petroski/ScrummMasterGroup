@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="basic.css" type="text/css"
+  </head>
+  <body>
+    <center>
+      <h1 >PIZZARIA DELIVERY</h1>
+    </center>
+
+    <center>
+      <form id="forms"
+        action=""
+        method="post"
+        name="meuform"
+        autocomplete="on"
+      >
+        <center>
+          <h1 >
+            Formas de Pagamento
+          </h1>
+        </center>
+        <p id="p1"><br><b id="b1">Preço final:</b><input id="precoFim" type="text" name="texto" size="10" value="R$ 35,40"/>
+          &emsp;&emsp;Escolher sache: <select name="sache" size="1" select="3">
+            <option> Maionese comum </option>
+            <option> Maionese caseira </option>
+            <option> Mostarda </option>
+            <option> Katchup </option>
+          </select>
+          &emsp;&emsp;Avisar por: <select name="sache" size="1" select="3">
+            <option> WhatsApp </option>
+            <option> SMS </option>
+            <option> Email </option>
+          </select>
+          <br><br></p>
+        <center><b>Escolher forma de pagamento</b></center>
+          
+        <p id="p1">
+          &emsp;&emsp;&emsp;<input
+            id="a1"
+            type="radio"
+            name="Genero"
+            value="1"
+          />
+          <b id="hey1"> PIX </b><img width="75" src="pixx.png"/>
+          &emsp;&emsp;&emsp; <input
+            id="a1"
+            type="radio"
+            name="Genero"
+            value="2"
+          />
+          <b id="hey2">Cartão de Crédito </b><img id="imge" width="100" src="debito.png"/><br />
+
+          &emsp;&emsp;&emsp;<input
+            id="a1"
+            type="radio"
+            name="Genero"
+            value="3"
+          />
+          <b id="hey3">Cartão de Débito </b><img width="100" src="debito.png"/><br>
+        </p>
+
+
+        <center>
+          <button><a href="EnderecoEntrega.html" target="_blank">Voltar para a entrega</a></button>
+&emsp;&emsp;<button><a href="formPay.html" target="_blank">Finalizar compra</br></a></button>
+        </center> <br >
+        
+        
+        <br />
+      </form>
+    </center>
+  </body>
+</html>
